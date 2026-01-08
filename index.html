@@ -20,17 +20,17 @@
       border-radius: 10px;
       text-align: center;
       box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-      max-width: 400px;
+      max-width: 420px;
       width: 90%;
     }
-    h1 {
+    h2 {
       margin-bottom: 10px;
     }
     p {
       color: #555;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
-    a {
+    a.button {
       display: block;
       text-decoration: none;
       color: white;
@@ -40,23 +40,55 @@
       margin: 10px 0;
       font-weight: bold;
     }
-    a:hover {
+    a.button:hover {
       background: #555;
+    }
+    .cv-button {
+      background: #0066cc;
+    }
+    .cv-button:hover {
+      background: #004f99;
+    }
+    .contact {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .contact a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h2>Welcome to Alabi Oshomoshiofu Precious Portfolio</h2>
+    <h2>Alabi Oshomoshiofu Precious</h2>
     <p>Select a portfolio to view</p>
 
-    <a href="https://github.com/oshos/Data-Science-and-Analytics-Portfolio.git">
+    <a class="button" href="https://github.com/oshos/Data-Science-and-Analytics-Portfolio" target="_blank">
       📊 Data Science & Analytics
     </a>
 
-    <a href="https://drive.google.com/drive/folders/1fhWzr9km4hxQSIf0U4INYaSpzBEjftkm?usp=sharing" target="_blank">
+    <a class="button" href="https://drive.google.com/drive/folders/1fhWzr9km4hxQSIf0U4INYaSpzBEjftkm?usp=sharing" target="_blank">
       🎬 Video Editing
     </a>
+
+    <a class="button cv-button" 
+       href="Alabi_Oshomoshiofu_Precious_CV.pdf" 
+       download>
+      📄 Download CV
+    </a>
+
+    <div class="contact">
+      <p>
+        📧 <a href="mailto:oshomoshiofualabi@gmail.com">oshomoshiofualabi@gmail.com</a><br />
+        🔗 <a href="https://www.linkedin.com/in/oshomoshiofualabi" target="_blank">LinkedIn</a>
+      </p>
+    </div>
   </div>
 </body>
 </html>
